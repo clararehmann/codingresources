@@ -1,0 +1,13 @@
+#!/bin/bash                         ### tells the shell how to interpret the following code
+
+#SBATCH --account=<account>         ### account to be charged for the job
+#SBATCH --partition=<partition>     ### partition to submit job to
+#SBATCH --job-name=job              ### job name
+#SBATCH --output=job.out            ### path to store job stdout
+#SBATCH --error=job.err             ### path to store job stderr
+#SBATCH --nodes=1                   ### how many  nodes to run the job on 
+#SBATCH --mem=12G                   ### how much memory the job needs to run
+#SBATCH --ntasks-per-node=1         ### number of tasks to launch per node
+#SBATCH --time=2-00:00:00           ### amount of time needed for job to run
+
+bash echo.sh $1                     ### code to be executed during the job. $1 is a parameter that can be passed when submitting the batch (`sbatch job.batch "an example"`)
