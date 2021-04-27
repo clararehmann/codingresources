@@ -1,8 +1,3 @@
----
-layout: page
----
-
-
 - [Guides for getting started](https://clararehmann.github.io/codingresources/pages/startup_guides)
 - [Links to documentation, and other helpful things](https://clararehmann.github.io/codingresources/pages/useful_links)
 - [Papers that might be interesting](https://clararehmann.github.io/codingresources/pages/cool_papers)
