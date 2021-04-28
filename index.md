@@ -4,7 +4,7 @@
 
 Starting to use Talapas? Here's a compiled [quick start guide](https://clararehmann.github.io/codingresources/talapas/quick_start) and a [directory with a very brief example](https://github.com/clararehmann/codingresources/tree/main/talapas/example_scripts).
 
-<img src="https://github.com/clararehmann/codingresources/blob/main/assets/IMG_9385.JPG" alt="aeg">
+<img src="https://github.com/clararehmann/codingresources/blob/main/assets/IMG_9385.png" alt="aeg">
 
 
 
